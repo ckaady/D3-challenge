@@ -1,16 +1,15 @@
-// @TODO: YOUR CODE HERE!
-var height = 620;
 var width = 960;
+var height = 500;
 
 var margin = {
   top: 20,
-  right: 10,
-  bottom: 120,
+  right: 40,
+  bottom: 0,
   left: 120
 };
 
-var width = width - margin.left - margin.right;
 var height = height - margin.top - margin.bottom;
+var width = width - margin.left - margin.right;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart,
 // and shift the latter by left and top margins.
